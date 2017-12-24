@@ -10,8 +10,12 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Одобрено главным редактором {{ page.date | date: "%d/%m/%Y" }}
   </div>
-
+  
+  <div class="suggestions">
+    Появились вопросы, предожения, сомнения в собственном душевном здоровье? Редакция с удовольствием ответит на любые ваши вопросы
+  </div>
+  
   {% include disqus.html %}
 </article>
