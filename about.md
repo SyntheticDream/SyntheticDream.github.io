@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Про Вантуз
+title: О Вантузе
 permalink: /about/
 ---
 
